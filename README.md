@@ -1,36 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Memory Game
+
+## Description
+
+Memory Game is a web application built with Next.js where players test their memory by matching pairs of cards. The objective is to find all matching pairs using as few moves as possible and in the shortest amount of time.
+
+The project is developed as part of a practical training assignment and follows a real-world development workflow, including version control, deployment, and incremental feature implementation.
+
+---
+
+## Features
+
+Current:
+- Landing page
+- Responsive layout
+
+Planned:
+- Memory card game
+- Multiple difficulty levels
+- Random card shuffle
+- Timer
+- Move counter
+- Score calculation
+- Restart game
+- Leaderboard
+- Database integration for storing scores
+
+---
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Git & GitHub
+- Vercel
+
+Planned:
+- Neon (PostgreSQL Database)
+- Prisma ORM
+- Clerk Authentication
+
+---
+
+## Project Structure
+
+```text
+src/
+├── app/
+├── components/
+├── lib/
+├── types/
+└── public/
+```
+
+---
 
 ## Getting Started
 
-First, run the development server:
+Clone the repository:
+
+```bash
+git clone https://github.com/ClaudiaCurca/memory-game.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd memory-game
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open the application in your browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Roadmap
 
-To learn more about Next.js, take a look at the following resources:
+- [x] Initialize Next.js project
+- [x] Create GitHub repository
+- [ ] Create landing page
+- [ ] Implement game board
+- [ ] Add card matching logic
+- [ ] Add difficulty levels
+- [ ] Add timer and move counter
+- [ ] Implement score calculation
+- [ ] Save scores to the database
+- [ ] Create leaderboard
+- [ ] Deploy the application on Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+The application will be deployed on Vercel.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Live Demo:** Coming soon.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Author
+
+Claudia
