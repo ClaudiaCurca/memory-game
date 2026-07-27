@@ -108,9 +108,9 @@ http://localhost:3000
 
 ## Deployment
 
-The application will be deployed on Vercel.
+The application is deployed on Vercel.
 
-**Live Demo:** Coming soon.
+**Live Demo:** https://memory-game-gray-six.vercel.app/
 
 ---
 
