@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -20,9 +21,12 @@ export default function Home() {
             Test your memory
           </h1>
 
-          <button className="rounded-xl bg-black px-8 py-4 text-white font-semibold transition hover:opacity-80">
-            Start
-          </button>
+          <Link
+          href = "/game">
+            <button className="rounded-xl bg-black px-8 py-4 text-white">
+              Start
+            </button>
+          </Link>
         </div>
       </section>
     </main>
