@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center px-6">
+    <main className="min-h-screen flex items-center justify-center px-6 bg-white">
       <section className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         <div className="flex justify-center">
           <Image
@@ -17,7 +17,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col items-start gap-6">
-          <h1 className="text-4xl md:text-6xl font-bold">
+          <h1 className="text-4xl md:text-6xl font-bold text-black">
             Test your memory
           </h1>
 
