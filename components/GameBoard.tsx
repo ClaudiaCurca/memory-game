@@ -10,6 +10,8 @@ type MemoryCard ={
     isMatched:boolean;
 };
 
+type Difficulty = "easy" | "medium"| "hard";
+
 const cardValues = [
     "/animals/cat.png",
     "/animals/dog.png",
@@ -19,6 +21,10 @@ const cardValues = [
     "/animals/cat1.png",
     "/animals/rabbit.png",
     "/animals/racoon.png",
+    "/animals/penguin.png",
+    "/animals/kingJulien.png",
+    "/animals/horse.png",
+    "/animals/ram.png",
 ];
 
 function createDeck():MemoryCard[]
