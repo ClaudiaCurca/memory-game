@@ -13,15 +13,16 @@ The project is developed as part of a practical training assignment and follows 
 Current:
 - Landing page
 - Responsive layout
-
-Planned:
 - Memory card game
 - Multiple difficulty levels
+- Move counter
+- Restart game
+
+Planned:
+
 - Random card shuffle
 - Timer
-- Move counter
 - Score calculation
-- Restart game
 - Leaderboard
 - Database integration for storing scores
 
@@ -29,32 +30,38 @@ Planned:
 
 ## Tech Stack
 
-- Next.js
-- React
+- Next.js 16
+- React 19
 - TypeScript
 - Tailwind CSS
 - Git & GitHub
 - Vercel
+- Clerk Authentication
 
 Planned:
 - Neon (PostgreSQL Database)
 - Prisma ORM
-- Clerk Authentication
 
 ---
 
 ## Project Structure
 
 ```text
-src/
 ├── app/
 ├── components/
-├── lib/
-├── types/
-└── public/
+|── public/
+├── proxy.ts
+├── package.json
+└── README.md
 ```
+## Environment Variables
 
----
+Create a `.env.local` file and add:
+
+```env
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_publishable_key
+CLERK_SECRET_KEY=your_secret_key
+```
 
 ## Getting Started
 
@@ -94,15 +101,16 @@ http://localhost:3000
 
 - [x] Initialize Next.js project
 - [x] Create GitHub repository
-- [ ] Create landing page
-- [ ] Implement game board
-- [ ] Add card matching logic
-- [ ] Add difficulty levels
+- [x] Create landing page
+- [x] Implement game board
+- [x] Add card matching logic
+- [x] Add difficulty levels
+- [x] Integrate Clerk authentication
 - [ ] Add timer and move counter
 - [ ] Implement score calculation
 - [ ] Save scores to the database
 - [ ] Create leaderboard
-- [ ] Deploy the application on Vercel
+- [x] Deploy the application on Vercel
 
 ---
 
