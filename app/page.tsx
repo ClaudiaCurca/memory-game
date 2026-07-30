@@ -5,7 +5,6 @@ import { useState } from "react";
 
 type Difficulty = "easy" | "medium" | "hard";
 
-
 export default function Home() {
 
     const [selectedDifficulty, setSelectedDifficulty] =
@@ -73,10 +72,10 @@ export default function Home() {
             </div>
 
           <Link
-          href = "/game">
-            <button className="rounded-xl bg-black px-8 py-4 text-white">
-              Start
-            </button>
+            href={`/game?difficulty=${selectedDifficulty}`}
+            className="rounded-xl bg-black px-8 py-4 text-white"
+          >
+            Start
           </Link>
         </div>
       </section>
